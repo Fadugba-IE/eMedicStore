@@ -9,6 +9,7 @@ $color: #ffffff;
     color: $color;
     height: 480px;
     width: 100%;
+    
 }
 
 .left-footer {
@@ -16,8 +17,8 @@ $color: #ffffff;
     position: absolute;
     width: 341px;
     height: 168px;
-    top: 264px;
-    margin-left: -64px;
+   margin-top:264px;;
+    margin-left: -45%;
     padding: 0 auto;
     font-size: 18px;
     line-height: 24px;
@@ -40,8 +41,8 @@ $color: #ffffff;
     position: absolute;
     width: 341px;
     height: 168px;
-    top: 264px;
-    margin-left: 400px;
+    margin-top: 285px;
+    margin-left: -10%;
     font-size: 18px;
     line-height: 24px;
 
@@ -55,7 +56,7 @@ $color: #ffffff;
 }
 
 .middle-upper {
-    top: -200px;
+    top: -220px;
     position: absolute;
     margin-left: -150px;
 
@@ -67,6 +68,7 @@ $color: #ffffff;
     input[type="text"] {
         width: 631px;
         height: 50px;
+        border: none;
         background: $color;
         border-radius: 5px;
     }
@@ -76,8 +78,8 @@ $color: #ffffff;
     position: absolute;
     width: 263px;
     height: 48px;
-    left: 1200px;
-    top: 73px;
+    margin-left: 27%;
+    margin-top: 73px;
 
     color: $color;
 
@@ -116,12 +118,13 @@ $color: #ffffff;
 .social-footer {
  
    position: absolute;
-   width: 30px;
-   height: 50px;
-
- 
-
+   top: 220px;
     
 }
 
+.svg-inline--fa{
+    width: 75px;
+    height: 75px;
+   margin-right: 15px;
+}
 

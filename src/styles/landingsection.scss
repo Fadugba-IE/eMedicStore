@@ -1,0 +1,101 @@
+$themecolor: #34c47c;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+
+.categories-section {
+    margin: 2% 2%;
+    width: 100%;
+    height: 45%;
+
+    .btn-top {
+        width: 96%;
+        font-size: 24px;
+        border: none;
+        background: $themecolor;
+        color: white;
+        text-align: left;
+    }
+
+    .btn-categories {
+        margin-bottom: 12%;
+        margin-top: 10%;
+        padding: 3% 3%;
+        width: 70%;
+        font-size: 20px;
+        border: 1px solid $themecolor;
+        background: white;
+        color: $themecolor;
+        text-align: center;
+    }
+
+    #fitness {
+        font-size: 20px;
+        padding: 3.5% 3.5%;
+    }
+
+    .view-all {
+        margin-bottom: 10%;
+        margin-left: 42%;
+        padding: 15px 15px;
+        width: 10%;
+        font-size: 20px;
+        border: none;
+        background: $themecolor;
+        color: white;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for responsiveness */
+
+@media (max-width: 575.98px)  {
+    .btn-categories {
+    margin-left: 12%;
+    margin-bottom: 4% !important;
+    margin-top: 3% !important;
+
+    }
+   
+
+    .categories-section .view-all {
+        margin-bottom: 10%;
+        margin-left: 35%;
+        padding: 15px 15px;
+        font-size: 20px;
+        width: 30%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    .categories-section .view-all {
+        width: 25%;
+        margin-left: 35%;
+}
+
+#fitness {
+    font-size: 18px !important;
+    
+ 
+
+}
+
+}

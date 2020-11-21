@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col, Row } from 'react-bootstrap';
+//import { Container, Col, Row } from 'react-bootstrap';
 import '../../styles/footer.scss';
 import logo from '../../images/footer-logo.png';
 import appstore from '../../images/appstore.png';
@@ -14,10 +14,11 @@ function Footer() {
 
 
     return (
-        <div className='footer-section'>
-            <Container>
-                <Row>
-                    <Col className='left-footer'>
+        <div className='Container footer-section'>
+          
+                <div className = 'row'>
+                    <div className = "col-sm left-footer" >
+                       
 
                         <img src={logo} alt="Logo" />
 
@@ -32,10 +33,12 @@ function Footer() {
                         <p> Report a Product </p>
 
 
-                    </Col>
+                   
+                    </div>
 
 
-                    <Col className='middle-footer' xs={5}>
+                    <div className = "col-sm middle-footer">
+                       
                         <div className='middle-upper'>
                             <h4>New to eMedicstore?</h4>
                             <p>Subscribe to our newsletter to get updates on our latest offers!</p>
@@ -54,12 +57,14 @@ function Footer() {
                         <p> Stay Safe</p>
                         <p> Black Friday</p>
 
-                    </Col>
+                       
+                    </div>
 
 
 
 
-                    <Col className='footer-right'>
+                    <div className = "col-sm footer-right">
+                       
                         <h4>DOWNLOAD eMedicstore APP</h4>
                         <p>Get access to exclusive offers!</p>
 
@@ -72,12 +77,17 @@ function Footer() {
                             <FontAwesomeIcon  icon={['fab', 'instagram']} />
                             <FontAwesomeIcon  icon={['fab', 'twitter']} />
                         </div>
+                        </div>
 
-                    </Col>
-                </Row>
-            </Container>
+                    </div>
+               
+        
         </div>
     )
 }
 
 export default Footer;
+
+/*  <div className = 'left-footer'>
+ <div className = 'middle-footer' >
+  <div className = 'footer-right'> */

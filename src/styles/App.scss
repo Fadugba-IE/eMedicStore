@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 @import "footer";
+@import "Navbar";
+@import "landingsection";
+@import "Login";
+@import "cardcomponent";
+@import "homeshopcardcomponent";
+@import "homeshop.scss";
 
 .whole-app{
 
     width: 100%;
     background: #FFFFFF;
 }
+
+.Login-page{
+    background: url(../images/loginbackground.png);
+    background-size: cover;
+}
+
 
 
 
