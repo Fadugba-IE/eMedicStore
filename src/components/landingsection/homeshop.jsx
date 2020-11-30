@@ -1,9 +1,8 @@
-
-
-
 import React from 'react';
-
 import {itemData} from '../../data/data.js';
+import '../../styles/homeshop.scss';
+
+import Image from "../../images/cardimage1.png";
 
 
 
@@ -17,22 +16,27 @@ import {itemData} from '../../data/data.js';
 
 
         
-        {itemData.map((data) => {
+        {itemData.map((data,index) => {
+          
+         
 
+
+ 
 
 return(
+ 
 
-<div  >
+<div>
          
-        <div class="container">
+        <div class="container" key= {index}>
         <div class="row">
           <div class="col">
         <Cards data = {data} />
           </div>
-          <div class="col">
+          <div class="col" >
         <Cards  data={data} />
           </div>
-          <div class="col">
+          <div class="col" >
         <Cards data={data}  />
           </div>
         
@@ -60,9 +64,10 @@ return(
       <button type="button" className="view-all" >View all</button>
 
 </div>
+
       );
-      
-    }
+}
+    
       
 
 
@@ -79,10 +84,10 @@ export default Homeshop;
   const Cards = (props) => {
               
   return (  
-      <div >
-    <div className="card">
+      <div>
+    <div className="card-homeshop">
 <div className = "card-button" >
-<img src={props.data.picture} className="card-img-top" alt="..." />
+<img src={Image} className="card-img-top" alt="..." />
 <button type="button" className="btn-card">Add to cart</button>
 </div>
 <div className="card-body">

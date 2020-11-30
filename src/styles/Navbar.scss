@@ -8,6 +8,8 @@ li {
 
 .navbar {
     background: white !important;
+    width: 100% !important;
+   
 }
 .navbar-login {
     background: #34c47c !important;
@@ -19,7 +21,7 @@ nav {
     position: absolute;
     width: 100%;
     height: 77px;
-
+    padding: auto auto;
     align-items: center;
 
     .logo {

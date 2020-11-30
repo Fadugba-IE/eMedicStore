@@ -1,5 +1,7 @@
 
 import './styles/App.scss';
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+
 /*
 
 import Footer from './components/footer/footer.jsx';
@@ -12,22 +14,28 @@ import Login from './components/maincomponents/Login.jsx';
 import LoginPage from './pages/LoginPage.jsx';
 import Cardcomponent from './components/maincomponents/Cardcomponent.jsx';
 import Recentlyviewed from './components/landingsection/Recentlyviewed.jsx';
+import Homeshop from './components/landingsection/homeshop.jsx';
+import Gastric from './components/landingsection/gastric.jsx';
+import Carousel from './components/landingsection/carousel.jsx';
+import Lowersection from './components/landingsection/lowersection.jsx';
+
 
 */
 
+import Homepage from './pages/Homepage.jsx';
 
-import Homeshop from './components/landingsection/homeshop.jsx';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab} from '@fortawesome/free-brands-svg-icons';
 import {fas} from '@fortawesome/free-solid-svg-icons';
 import {far} from '@fortawesome/free-regular-svg-icons';
+
 
 library.add(fab, fas, far)
 
 function App() {
   return (
    <div className = 'whole-app'> 
-    <Homeshop />
+    <Homepage />
       </div>
    
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import Cards from '../maincomponents/Cardcomponent.jsx';
+import '../../styles/cardcomponent.scss';
 
 
  function Recentlyviewed() {
@@ -7,7 +8,7 @@ import Cards from '../maincomponents/Cardcomponent.jsx';
 
     return (
         <div className = "Recently-viewed">
-                  <button type="button" className="btn-top">Recently Viewed</button>
+                  <button type="button" className="btn-top-recent">Recently Viewed</button>
        
         <div class="container">
         <div class="row">

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/landingsection.scss';
-import Cards from '../maincomponents/Cardcomponent.jsx';
+
 
 function Categories() {
 
@@ -27,13 +27,13 @@ function Categories() {
                     <button type="button" className="btn-categories" >Antibiotics</button>
                     
     </div>
-
-                   
+       
                 </div>
+                <button type="button" className="view-all" >View all</button>
 
                 
             </div>
-            <button type="button" className="view-all" >View all</button>
+           
 
             
 

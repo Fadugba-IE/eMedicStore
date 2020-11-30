@@ -1,0 +1,57 @@
+.Home-carousel{
+
+    height: 460px !important;
+    width: 100%;
+  
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: inline-block;
+    background-color: #34C47C !important;
+    width: 58px !important;
+    height: 120px !important;
+    background: no-repeat 50% / 100% 100%;
+
+}
+
+.carousel {
+    position: relative;
+    
+}
+
+
+.carousel-control.right, .carousel-control-next {
+    background-image: none !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    margin-bottom: 9% !important;
+   margin-left: -10% !important;
+    color: #0B63B2 !important;
+    text-align: left !important;
+
+    p{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    h3{
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
+
+.carousel-item {
+    height: 540px;
+  
+  
+   img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 540px;
+  }
+
+  
+}

@@ -4,19 +4,18 @@
 @import "landingsection";
 @import "Login";
 @import "cardcomponent";
-@import "homeshopcardcomponent";
 @import "homeshop.scss";
+@import "gastric.scss";
+@import "Carousel.scss";
+@import "lowersection.scss";
 
 .whole-app{
 
     width: 100%;
     background: #FFFFFF;
+    overflow: hidden;
 }
 
-.Login-page{
-    background: url(../images/loginbackground.png);
-    background-size: cover;
-}
 
 
 

@@ -1,0 +1,37 @@
+.Gastric-section{
+    background:  linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../images/gastric.png");
+    background-size: cover;
+    height: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    h1{
+        color: white;
+        font-size: 64px;
+        text-align: center;
+    }
+ 
+    p{
+        color: white;
+        text-align: center;
+    }
+
+    .view-all-gastric{
+        margin-left: 43%;
+        width: 15%;
+            font-size: 20px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: none;
+            background: #0B63B2;
+            color: white;
+            text-align: center;
+    }
+
+    .Gastric-content{
+        position: relative;
+           padding-top: 8%;
+           
+
+    }
+}
