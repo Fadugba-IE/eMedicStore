@@ -1,0 +1,71 @@
+
+{
+
+ "item" : [
+
+
+   {
+        "id": 1,
+        "product": "Surgical rubber glove", 
+        "picture": "./cardimage1.png",    
+        "price": "\u20A6 200.00",
+        "note": "*prices may vary due to market flunctuations"
+      
+
+} ,
+
+{
+        "id": 2,
+        "product": "Surgical face Mask", 
+        "picture": "./cardimage1.png",    
+        "price": "\u20A6 200.00",
+        "note": "*prices may vary due to market flunctuations"
+      
+
+} , 
+
+{
+        "id": 3,
+        "product": "Digital Thermometer", 
+        "picture": "./cardimage1.png",    
+        "price": "\u20A6 200.00",
+        "note": "*prices may vary due to market flunctuations"
+      
+
+} , 
+
+{
+        "id": 4,
+        "product": "Surgical Face Mask", 
+        "picture": "./cardimage1.png",    
+        "price": "\u20A6 200.00",
+        "note": "*prices may vary due to market flunctuations"
+      
+
+} ,
+
+{
+        "id": 5,
+        "product": "Surgical rubber glove", 
+        "picture": "./cardimage1.png",    
+        "price": "\u20A6 200.00",
+        "note": "*prices may vary due to market flunctuations"
+      
+
+} ,
+
+{
+        "id": 6,
+        "product": "Digital thermometer", 
+        "picture": "./cardimage1.png",    
+        "price": "\u20A6 200.00",
+        "note": "*prices may vary due to market flunctuations"
+      
+
+}
+
+  
+]
+
+}
+

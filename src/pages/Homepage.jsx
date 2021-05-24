@@ -16,9 +16,9 @@ import Footer from '../components/footer/footer';
             <Navbar />
             <Carousel />
             <Categories />
-            <Homeshop />
+          <Homeshop />
             <Gastric />
-            <Recentlyviewed />
+         <Recentlyviewed />
             <Lowersection />
             <Footer />
             

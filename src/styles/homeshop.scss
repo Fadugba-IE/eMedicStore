@@ -25,10 +25,20 @@
     .card-homeshop {
       width: 300px ;
       height: 300px ;
-      margin-top: 12%;
-      margin-bottom: 5%;
+      margin-top: 5%;
+      margin-bottom: 3%;
+      display: flex;
+      justify-content: center;
+      list-style: none;
   
-  
+
+      li{
+        flex: 1 1 ;
+        flex-flow: column;
+       
+      }
+      
+   
   
       .card-button {
           display: inline-block;

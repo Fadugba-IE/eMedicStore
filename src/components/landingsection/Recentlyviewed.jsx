@@ -1,10 +1,29 @@
-import React from 'react';
-import Cards from '../maincomponents/Cardcomponent.jsx';
+
+
+import React, { Component } from 'react'
+import data from '../../data/data.json';
 import '../../styles/cardcomponent.scss';
+import CardComponent from '../maincomponents/Cardcomponent';
 
 
- function Recentlyviewed() {
-    
+
+
+
+
+export default class Recentlyviewed extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      item : data.item,
+      picture : "",
+      price : "",
+      note  : ""
+         
+    };
+  }
+
+  render () {
 
     return (
         <div className = "Recently-viewed">
@@ -13,25 +32,13 @@ import '../../styles/cardcomponent.scss';
         <div class="container">
         <div class="row">
           <div class="col">
-        <Cards />
+        <CardComponent item = {this.state.item} />
           </div>
-          <div class="col">
-          <Cards />
-          </div>
-          <div class="col">
-          <Cards />
-          </div>
-          <div class="col">
-          <Cards />
-          </div>
-          <div class="col">
-          <Cards />
-          </div>
-          
+         
         
         </div>
       </div>
       </div>
     )
 }
-export default Recentlyviewed;
+}
