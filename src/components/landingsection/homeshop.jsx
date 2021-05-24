@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import data from '../../data/data.json';
-import CardComponent from '../maincomponents/Cardcomponent';
+import Cardcomponent from '../maincomponents/Cardcomponent';
 
 
 
@@ -29,7 +29,7 @@ export default class Homeshop extends Component {
         
         <div className = "container">
 
-      <CardComponent item = {this.state.item} />
+      <Cardcomponent item = {this.state.item} />
 
         </div>
      
@@ -42,8 +42,6 @@ export default class Homeshop extends Component {
     )
   }
 }
-
-
 
 
 

@@ -19,7 +19,7 @@ export default class CardComponent extends Component {
 
               <div className="card-item">
                 <div className="card-button" >
-                  <img src={item.picture} className="card-img-top" alt="..." />
+                  <img src={item.picture} className="card-img-top" alt="product" />
                   <button type="button" className="btn-card">Add to cart</button>
                 </div>
                 <div className="card-body">
